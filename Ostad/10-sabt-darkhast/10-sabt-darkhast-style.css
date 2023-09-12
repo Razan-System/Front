@@ -1,0 +1,59 @@
+
+.up-side{
+    position: absolute;
+    top: 20%;
+    left: 12.5%;
+    width: 75%; 
+    border: solid 3px #37B9F1;
+    border-radius: 15px;
+    box-shadow: 0px 0px 5px #37B9F1;
+}
+textarea{
+    resize:none;
+    outline: none;
+    border:solid 1px #ddd;
+    border-radius: 10px;
+    padding: 13px;
+    caret-color: #257699;
+    color: #257699;
+    font-size: 17px;
+   }
+   form{
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    /* align-items: start; */
+    justify-content: center;
+   }
+   form label{
+    color: #257699;
+    text-shadow: 0px 0px 1px #257699;
+    font-size: 20px;
+   }
+   /*dddd*/
+   /* inspired form gumroad website */
+.button {
+    --bg: #484848;
+    --hover-bg: #37B9F1;
+    --hover-text: #484848;
+    color: #fff;
+    cursor: pointer;
+    border: 1px solid var(--bg);
+    border-radius: 4px;
+    padding: 0.6em 2em;
+    background: var(--bg);
+    transition: 0.2s;
+    font-size: 20px;
+  }
+  
+  .button:hover {
+    color: var(--hover-text);
+    transform: translate(-0.25rem,-0.25rem);
+    background: var(--hover-bg);
+    box-shadow: 0.25rem 0.25rem var(--bg);
+  }
+  
+  .button:active {
+    transform: translate(0);
+    box-shadow: none;
+  }

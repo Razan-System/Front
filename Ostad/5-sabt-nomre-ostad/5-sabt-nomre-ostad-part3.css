@@ -1,0 +1,108 @@
+
+
+
+.part3
+{
+    content: '';
+    /* position: absolute;
+    right: 15%;
+    top: 15vh; */
+    height: 20vh;
+    margin: 10px auto;
+    width: 20%;
+    z-index: 100;
+    margin-top: -135px;
+    margin-bottom: 30px;
+    border-radius: 20px;
+    overflow: auto;
+    background-color: rgba(47, 19, 228, 0.064);
+    backdrop-filter: blur(50px);
+    /* background-color: rgb(244, 226, 254); */
+    /* border: 1px solid #ddd; */
+    border: solid 2px #37B9F1;
+    
+}
+
+
+.part3 .down-side
+{
+    width: 100%;
+    height: 100%;
+    
+    /* padding: 20px; */
+}
+
+.part3 table
+{
+    width: 100%;
+    height: 100%;
+}
+
+.part3 thead tr 
+{
+    padding: 10px;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.part3 tbody tr 
+{
+    margin: 30px 0;
+    font-weight: 200;
+}
+
+.part3-tabel-head
+{
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+
+
+
+.comic-button{
+    width: 58%;
+    /* margin-top: 20px; */
+    font-size: 15px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+}
+.comic-button {
+    padding: 12.5px 30px;
+    border: 0;
+    border-radius: 100px;
+    background-color: #37B9F1;
+    color: #ffffff;
+    font-weight: Bold;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+  }
+  
+  .comic-button:hover {
+    background-color: #6fc5ff;
+    box-shadow: 0 0 20px #6fc5ff50;
+    transform: scale(1.1);
+  }
+  
+  .comic-button:active {
+    background-color: #3d94cf;
+    transition: all 0.25s;
+    -webkit-transition: all 0.25s;
+    box-shadow: none;
+    transform: scale(0.98);
+  }
+  #m{
+    position: relative;
+    right: 21%;
+    top: 37%;
+    opacity: 1;
+    z-index: 100;
+  }
+  #n{
+    position: relative;
+    right: 21%;
+    top: 11.4%;
+    opacity: 0;
+    z-index: 2;
+  }

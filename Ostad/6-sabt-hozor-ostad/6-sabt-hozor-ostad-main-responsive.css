@@ -1,0 +1,56 @@
+@media(max-width:1350px)
+{
+
+
+}
+
+@media(max-width:900px)
+{
+    .main-side
+    {
+        overflow: auto;
+    }
+
+    .part1
+    {
+        top: 17%;
+        left: 5%;
+        width: 90%;
+        height: 80px;
+    }
+
+    .part2
+    {
+        top: 28%;
+        width: 90%;
+    }
+
+    .part3
+    {
+        top: 5%;
+        right: 5%;
+        width: 90%;
+        height: 10%;
+    }
+}
+
+@media(max-width:670px)
+{
+
+}
+
+@media(max-width:530px)
+{
+
+}
+
+@media(max-width:455px)
+{
+
+}
+
+@media(max-width:390px)
+{
+
+
+}

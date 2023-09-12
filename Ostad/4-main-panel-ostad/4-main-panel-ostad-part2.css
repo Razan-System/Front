@@ -1,0 +1,29 @@
+
+
+.part2 
+{
+    position: absolute;
+    top: 20%;
+    right: 5%;
+    width: 63%;
+    height: 35vh;
+    border-radius: 20px;
+    overflow: auto;
+    background-color: #8639f9f2;
+    background-color: rgba(92, 165, 224, 0.6);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    color: #464646;
+}
+.part2 p{
+    color: #4e4e4e; 
+    margin-right: 4px;
+}
+
+.tabel-box
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+

@@ -1,0 +1,74 @@
+.notif{
+    overflow: hidden;
+    background-color: white;
+    width: 78%;
+    height: 70%;
+    margin-right: 12%;
+    margin-top: 8%;
+    /* margin-top: 5%; */
+    /* margin-right: 30px; */
+    /* height: 300px; */
+    
+    box-shadow: 0px 0px 30px #37B9F1;
+    border-radius: 20px;
+    border: solid 3px #37B9F1;
+
+    border-top: none;
+    transition: all 0.6s ease-in-out;
+    /* margin-top: 60px; */
+    animation: form-anim 1.5s ease-in-out forwards;
+  }
+
+  @property --myColor1 {
+    syntax: '<color>';
+    initial-value: #37B9F1;
+    inherits: false;
+  }
+  
+  @property --myColor2 {
+    syntax: '<color>';
+    initial-value: #8739F9;
+    inherits: false;
+  }
+  .up{
+    background: -webkit-linear-gradient(45deg, #8739F9  , #37B9F1  );  
+    background: linear-gradient(45deg, var(--myColor1), var(--myColor2));
+    transition: --myColor1 1.5s, --myColor2 1.5s;
+  }
+  .notif:hover .up{
+    --myColor1: #8739F9;
+    --myColor2: #37B9F1;
+  }
+  .up h2{
+    color: #F2F5F4;
+    text-shadow: 0px 0px 2px #F2F5F4;
+    padding: 18px;
+    font-size: 30px;
+    text-align: center;
+  }
+  .down{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    /* align-content: space-evenly; */
+    padding: 30px;
+    overflow-y: auto;
+    scroll-behavior: smooth;
+  }
+  .payam{
+    display: inline-block;
+    width: 100%;
+    margin-top: 15px;
+    padding: 15px;
+    border-radius: 15px;
+    border: solid 2px #37B9F1;
+    /* box-shadow:  0px 0px 2px #37B9F1 ; */
+    animation: payam-anim 0.9s ease-in-out forwards;
+  }
+  p{
+    font-size: 18px;
+    line-height: 34px;
+    color: #257699;
+    text-shadow: 0px 0px 1px #257699;
+  }

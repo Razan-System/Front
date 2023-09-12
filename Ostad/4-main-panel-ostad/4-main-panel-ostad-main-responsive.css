@@ -1,0 +1,86 @@
+@media(max-width:1350px)
+{
+
+}
+
+@media(max-width:900px)
+{
+
+    .main-side
+    {
+        overflow: scroll;
+    }
+
+    .part1
+    {
+        top: 20%;
+        left: 4%;
+        width: 90vw;
+        height: 50vh;
+    }
+
+    .part2
+    {
+        top: 80%;
+        right: 4%;
+        width: 90vw;
+        height: 35vh;
+    }
+
+    .part3
+    {
+        top: 123%;
+        right: 4%;
+        width: 90vw;
+        height: 35vh;
+    }
+
+    .part1 .message-box
+{
+    min-height: 100px;
+    /* height: 45%; */
+}
+
+}
+
+@media(max-width:670px)
+{
+
+}
+
+@media(max-width:530px)
+{
+
+}
+
+@media(max-width:480px)
+{
+    .nav-profile span
+    {
+        font-size: 0.7rem;    
+    }
+}
+
+@media(max-width:455px)
+{
+
+}
+
+@media(max-width:390px)
+{
+    .nav-profile span
+    {
+        font-size: 0.7rem;    
+    }
+
+    .nav-profile img
+{
+    width: 60px;
+    height: 60px;
+}
+.notfication img
+{
+    width: 45px;
+    height: 45px;
+}
+}

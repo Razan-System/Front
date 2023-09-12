@@ -1,0 +1,93 @@
+
+
+
+
+
+.part2 
+{
+    position: absolute;
+    top: 20%;
+    left: 5%;
+    width: 80%;
+    height: 75%;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: rgba(224, 224, 221, 0.6);
+}
+
+
+.part2 .up
+{
+    width: 100%;
+    height: 12%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(224, 224, 221, 0.6);
+    font-size: 1.3rem;
+    
+    
+}
+.part2 .up h2{
+    color: rgba(92, 165, 224, 1);
+    text-shadow: 0px 0px 1px rgba(92, 165, 224, 1);
+}
+
+.part2 .down
+{
+    position: absolute;
+    width: 90%;
+    height: 80%;
+    top: 14%;
+    right: 5%;
+    overflow: auto;
+    border-radius: 10px;
+    box-shadow: inset 3px 3px 5px rgba(29, 28, 28, 0.454),
+    inset -3px -3px 5px rgba(255, 255, 255, 0.91);
+    
+}
+
+
+.part2 .down table
+{
+    width: 100%;
+}
+
+.part2 .down table th 
+{
+    padding: 10px;
+}
+
+.part2 .th-icon
+{
+    font-size: 1.8rem;
+    color: white;
+}
+
+.part2 .green-icon ion-icon
+{
+    width: 30px;
+    height: 30px;
+    border-radius: 10px;
+    padding: 2px;
+    background-image: linear-gradient(45deg, #1eadf0, #0afb60);
+}
+
+.part2 .red-icon ion-icon
+{
+    width: 30px;
+    height: 30px;
+    border-radius: 10px;
+    padding: 2px;
+    background-image:linear-gradient(45deg, #e51a4c, #c90032);
+}
+
+.part2 .th-icon:hover ion-icon
+{
+    transform: scale(1.1);
+}
+
+.part2 table tbody tr:nth-child(odd)
+{
+    background-color: white;
+}

@@ -1,0 +1,67 @@
+
+.part1 
+{
+    position: absolute;
+    top: 20%;
+    left: 4%;
+    width: 27%;
+    height: 75vh;
+    border-radius: 20px;
+    overflow: hidden;
+    direction: ltr !important;
+    background-color: #5ca5e099;
+    padding: 10px;
+}
+
+.part1 section
+{
+    /* background: #44a1ed99; */
+}
+
+
+.part1 .message-box
+{
+    /* position: absolute;
+    bottom: 10px; */
+    width: 100%;
+    min-height: 250px;
+    overflow-y: auto;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10px;
+}
+
+.part1 .message-box .message
+{
+    position: relative;
+    display: flex;
+    /* justify-content: start; */
+    align-items: center;
+    width: 90%;
+    height: 60px;
+    border-radius: 10px;
+    box-shadow: inset 5px 5px 10px rgba(0,0,0,0.1),
+    inset -5px -5px 10px #73b1e299 ,
+    0px 0px 10px #5ca5e099;
+    color: #464646;
+    /* cursor: pointer; */
+}
+
+.part1 .message-box .message ion-icon
+{
+    position: absolute;
+    right: 10%;
+    font-size: 1.5rem;
+}
+
+.part1 .message-box .message p
+{
+    position: absolute;
+    right: 20%;
+    top: 15px;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
